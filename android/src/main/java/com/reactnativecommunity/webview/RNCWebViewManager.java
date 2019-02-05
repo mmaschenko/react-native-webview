@@ -613,6 +613,13 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
     ((RNCWebView) view).setMessagingEnabled(enabled);
   }
 
+  @ReactProp(name = "setAlpha")
+  public void setAlphaToWebView(WebView view, boolean alpha) {
+    if (alpha) {
+      view.setAlpha(0.9f);
+    }
+  }
+
   @ReactProp(name = "source")
   public void setSource(WebView view, @Nullable ReadableMap source) {
     if (source != null) {
