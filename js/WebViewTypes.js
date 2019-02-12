@@ -460,6 +460,8 @@ export type WebViewSharedProps = $ReadOnly<{|
    */
   scalesPageToFit?: ?boolean,
 
+  alphaEnabled?: ?boolean,
+
   /**
    * Boolean that determines whether HTML5 audio and video requires the user
    * to tap them before they start playing. The default value is `true`.
