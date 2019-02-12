@@ -43,7 +43,7 @@
 @property (nonatomic, copy) NSString *userAgent;
 @property (nonatomic, assign) BOOL cacheEnabled;
 @property (nonatomic, assign) BOOL allowsLinkPreview;
-@property (nonatomic, assign) BOOL alphaEnabled;
+@property (nonatomic, assign) BOOL setAlpha;
 
 - (void)postMessage:(NSString *)message;
 - (void)injectJavaScript:(NSString *)script;
