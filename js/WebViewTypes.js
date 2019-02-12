@@ -460,7 +460,7 @@ export type WebViewSharedProps = $ReadOnly<{|
    */
   scalesPageToFit?: ?boolean,
 
-  alphaEnabled?: ?boolean,
+  setAlpha?: ?boolean,
 
   /**
    * Boolean that determines whether HTML5 audio and video requires the user
